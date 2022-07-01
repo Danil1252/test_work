@@ -1,3 +1,6 @@
+document.querySelector('.map-page').style.display = 'none'
+document.querySelector('.time').style.display = 'none'
+
 const navItems = document.querySelectorAll(".nav-item")
 const mainContentContainer = document.querySelectorAll('.main-content-container')
 for (let item of navItems) {
